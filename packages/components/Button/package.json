@@ -1,7 +1,7 @@
 {
   "name": "@supremes-ui/button",
   "private": false,
-  "version": "2.1.0",
+  "version": "2.2.0",
   "type": "module",
   "types": "dist/index.d.ts",
   "main": "dist/index.umd.js",
