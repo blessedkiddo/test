@@ -9,7 +9,8 @@
     "build-one": "lerna exec \"npm run build\" --stream --scope='@supremes-ui/multiselect*' --no-bail",
     "lint-fix": "lerna run --stream lint-fix",
     "build": "lerna run build",
-    "env.linux": "lerna exec 'cp .env.dist .env' --parallel"
+    "env.linux": "lerna exec 'cp .env.dist .env' --parallel",
+    "changeset:publish": "pnpm build && changeset publish"
   },
   "devDependencies": {
     "lerna": "^8.1.9"
