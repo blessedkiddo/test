@@ -7,3 +7,5 @@ const Styled = styled("div")(({ theme }) => ({
 export const Button = () => {
   return <div>Button</div>;
 };
+
+console.log("hehe");
