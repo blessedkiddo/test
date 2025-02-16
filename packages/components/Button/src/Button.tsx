@@ -1,4 +1,3 @@
-import { theme } from "@supremes-ui/theme";
 import styled from "styled-components";
 
 const Styled = styled("div")(({ theme }) => ({
@@ -8,5 +7,3 @@ const Styled = styled("div")(({ theme }) => ({
 export const Button = () => {
   return <div>Button</div>;
 };
-
-console.log(123);
