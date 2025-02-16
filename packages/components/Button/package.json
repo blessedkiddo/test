@@ -1,0 +1,44 @@
+{
+  "name": "@supremes-ui/button",
+  "private": false,
+  "version": "1.0.1",
+  "type": "module",
+  "types": "index.d.ts",
+  "main": "index.umd.js",
+  "module": "index.es.js",
+  "license": "ISC",
+  "scripts": {
+    "dev": "tsc --watch",
+    "build": "vite build",
+    "typecheck": "tsc -p tsconfig.json --noEmit"
+  },
+  "exports": {
+    ".": {
+      "types": "./index.d.ts",
+      "import": "./index.es.js",
+      "require": "./index.umd.js"
+    }
+  },
+  "engines": {
+    "node": ">=14.0.0"
+  },
+  "peerDependencies": {
+    "react": "^19.0.0",
+    "react-dom": "^19.0.0",
+    "styled-components": "6.1.15"
+  },
+  "devDependencies": {
+    "@types/node": "^22.13.4",
+    "@types/react": "^19.0.0",
+    "@vitejs/plugin-react": "^4.3.4",
+    "@vitejs/plugin-react-swc": "^3.8.0",
+    "typescript": "^5.7.3",
+    "vite": "^6.1.0",
+    "vite-plugin-dts": "^4.5.0",
+    "vite-plugin-static-copy": "^2.2.0",
+    "vite-plugin-svgr": "^4.3.0"
+  },
+  "dependencies": {
+    "@supremes-ui/theme": "^1.0.1"
+  }
+}
