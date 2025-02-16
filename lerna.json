@@ -1,7 +1,10 @@
 {
   "$schema": "node_modules/lerna/schemas/lerna-schema.json",
   "version": "0.0.1",
-  "packages": [
-    "packages/**/!(dist)"
-  ]
+  "packages": ["packages/*", "packages/components/*"],
+  "command": {
+    "version": {
+      "allowBranch": "master"
+    }
+  }
 }

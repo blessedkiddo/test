@@ -9,3 +9,5 @@ export const theme = {
     parimary: "red",
   },
 };
+
+console.log("lala");
