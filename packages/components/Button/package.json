@@ -1,7 +1,7 @@
 {
   "name": "@supremes-ui/button",
   "private": false,
-  "version": "1.0.1",
+  "version": "1.0.2",
   "type": "module",
   "types": "index.d.ts",
   "main": "index.umd.js",
@@ -39,6 +39,6 @@
     "vite-plugin-svgr": "^4.3.0"
   },
   "dependencies": {
-    "@supremes-ui/theme": "^1.0.0"
+    "@supremes-ui/theme": "^1.0.2"
   }
 }
