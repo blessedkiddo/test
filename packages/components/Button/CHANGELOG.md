@@ -1,5 +1,11 @@
 # @supremes-ui/button
 
+## 2.3.0
+
+### Minor Changes
+
+- asfgssagta
+
 ## 2.2.0
 
 ### Minor Changes
