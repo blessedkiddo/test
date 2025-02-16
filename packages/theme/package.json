@@ -1,7 +1,7 @@
 {
   "name": "@supremes-ui/theme",
   "private": false,
-  "version": "1.0.1",
+  "version": "0.0.1",
   "type": "module",
   "types": "index.d.ts",
   "main": "index.umd.js",
